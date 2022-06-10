@@ -1,0 +1,15 @@
+#projectImages {
+    height: 350px;
+    width: 600px;
+    transition: all .3s ease-in-out;
+    border-radius: 30px;
+}
+
+#projectImages:hover {
+    opacity: .9;
+    filter: blur(.5px);
+    border-radius: 40px;
+    transition: all .3s ease-in-out;
+    box-shadow: 2px 2px 3px 10px rgb(19, 19, 19);
+    background-color: rgb(212, 212, 212);
+}
