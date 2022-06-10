@@ -28,11 +28,6 @@ export default function About() {
                 This sparked my interest and motivation to start my journey into Computer Science and have found to really enjoy the process! 
                 I plan on learning more and more everyday and reaching my goals of working with Computers for a living.
             </p>
-            <p className="p-3">
-                This is some information about myself and my company and my company website and my company website website website, This is some information about myself 
-                and my company and my company website and my company website website website, This is some information about myself 
-                and my company and my company website and my company website website website
-            </p>
             </Col>
     
         </Row>
