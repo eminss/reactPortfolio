@@ -16,7 +16,7 @@ export default function Resume() {
           <Col lg={8}>
             <p className='p-4'>
               Communicative, open-minded, aspiring and proficient Web Developer eager to create exciting websites. Have experience
-              working in a busy face-paced environment, as well as cooperating with and leading peers.
+              working in busy face-paced environments, as well as cooperating with and leading peers.
             </p>
             <h4>Education</h4>
             <h6 className='p-2 m-2'>Lake Washington Institute of Technology</h6>
