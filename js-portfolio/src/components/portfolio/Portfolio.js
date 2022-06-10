@@ -32,9 +32,7 @@ export default function Portfolio() {
               Here is a collection of some of my past and current projects.
             </p>
             <p className="p-3">
-              This is some information about myself and my company and my company website and my company website website website, This is some information about myself
-              and my company and my company website and my company website website website, This is some information about myself
-              and my company and my company website and my company website website website
+              Give them a click and take a look!
             </p>
           </Col>
 

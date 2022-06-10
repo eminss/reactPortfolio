@@ -1,3 +1,17 @@
 .iconFoot {
     size: 20px;
+    transition: all .3s ease-in-out;
+}
+
+#footerText:hover, .iconFoot:hover {
+    color: rgb(60, 69, 168);
+    size: 20px;
+    transition: all .2s ease-in-out;
+}
+
+#footerText {
+    display: inline-block;
+    margin: 0px;
+    margin-left: 15px;
+    transition: all .2s ease-in-out;
 }
