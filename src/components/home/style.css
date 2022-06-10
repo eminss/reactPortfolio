@@ -18,3 +18,39 @@ h1 {
     color: rgb(80, 80, 80);
     letter-spacing: 2px;
 }
+.img:before {
+    box-shadow: 0px 0px 0px 0px;
+}
+.img {
+    object-fit: cover;
+    filter: grayscale(50%);
+    width: 1250px;
+    height: 500px;
+    box-shadow: 5px 5px 30px 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.img:hover {
+    box-shadow: 5px 5px 30px 10px;
+    filter: grayscale(0%);
+}
+
+#animImg:before {
+    box-shadow: 0px 0px 0px 0px;
+}
+#animImg {
+    object-fit: cover;
+    filter: grayscale(50%);
+    width: 1250px;
+    height: 500px;
+    box-shadow: 5px 5px 30px 0px;
+    transition: all 0.3s ease-in-out;
+    background-image: url('https://wallpaperaccess.com/full/1850967.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+
+#animImg:hover {
+    box-shadow: 5px 5px 30px 10px;
+    filter: grayscale(0%);
+}

@@ -4,7 +4,10 @@ import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import { useState } from 'react';
 import { useTransition, animated, config } from 'react-spring';
-
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import Image from 'react-bootstrap/Image';
 
 export default function Home() {
   const [animFinished, setAnimFinished] = useState();
@@ -12,14 +15,21 @@ export default function Home() {
     from: { x: -100, y: 400, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
     config: config.slow,
-    delay: 500
+    delay: 250
   })
 
   const transitionSub = useTransition(animFinished, {
     from: { x: 0, y: 400, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
     config: config.slow,
-    delay: 2000
+    delay: 1500
+  })
+
+  const transitionImage = useTransition(animFinished, {
+    from: { x: 0, y: 10, opacity: 0 },
+    enter: { x: 0, y: 0, opacity: 1 },
+    config: config.slow,
+    delay: 3000
   })
 
   useEffect(() => {
@@ -37,9 +47,17 @@ export default function Home() {
           {transitionSub((style, item) => 
             item ? <animated.h1 style={style} className="item">Feel free to look around.</animated.h1> : ''
           )}
-
         </div>
       </div>
+      <Container>
+            <Row>
+              <Col lg={12}>
+                {transitionImage((style, item) => 
+              item ? <animated.div id="animImg" style={style} className="item">:)</animated.div> : ''
+              )}
+              </Col>
+            </Row>
+          </Container>
       <Footer />
     </>
   )
