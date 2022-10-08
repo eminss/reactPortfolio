@@ -39,6 +39,9 @@ h1 {
     box-shadow: 0px 0px 0px 0px;
 }
 #animImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     object-fit: cover;
     filter: grayscale(50%);
     width: 1250px;
@@ -53,4 +56,15 @@ h1 {
 #animImg:hover {
     box-shadow: 5px 5px 30px 10px;
     filter: grayscale(0%);
+}
+
+@media all and (max-width: 768px) {
+    .item {
+        
+    }
+
+    #animImg {
+        width: 70%;
+        height: 100%;
+    }
 }

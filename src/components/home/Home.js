@@ -53,7 +53,7 @@ export default function Home() {
             <Row>
               <Col lg={12}>
                 {transitionImage((style, item) => 
-              item ? <animated.div id="animImg" style={style} className="item">:)</animated.div> : ''
+              item ? <animated.div id="animImg" style={style} className="item"></animated.div> : ''
               )}
               </Col>
             </Row>

@@ -20,7 +20,7 @@ export default function About() {
             <h2 className="header p-3 m-5">About Page</h2>
             <p className="p-3">
                 Hello there! My name is Jaden Storey. I am a web developer, 3D artist, Computer Science Student and aspire to create some cool things.
-                I have an associates degree in Game Design and Interactive Multi-media from Lake Washington Institute of Technology and am about to graduate from the 
+                I have an associates degree in Game Design and Interactive Multi-media from Lake Washington Institute of Technology and have graduated from the 
                 University of Washington Full-stack web development Bootcamp by Trilogy.
             </p>
             <p className="p-3">
