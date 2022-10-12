@@ -12,24 +12,24 @@ import Image from 'react-bootstrap/Image';
 export default function Home() {
   const [animFinished, setAnimFinished] = useState();
   const transition = useTransition(animFinished, {
-    from: { x: -100, y: 400, opacity: 0 },
+    from: { x: 0, y: 50, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
     config: config.slow,
-    delay: 250
+    delay: 0
   })
 
   const transitionSub = useTransition(animFinished, {
-    from: { x: 0, y: 400, opacity: 0 },
+    from: { x: 0, y: 100, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
     config: config.slow,
-    delay: 1500
+    delay: 250
   })
 
   const transitionImage = useTransition(animFinished, {
     from: { x: 0, y: 10, opacity: 0 },
     enter: { x: 0, y: 0, opacity: 1 },
     config: config.slow,
-    delay: 3000
+    delay: 1000
   })
 
   useEffect(() => {

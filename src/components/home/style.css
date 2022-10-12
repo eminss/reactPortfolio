@@ -3,21 +3,29 @@ h1 {
     padding: 30px;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .item {
+    display: flex;
+    flex-direction: column;
     font-family: 'Lato', sans-serif;
     letter-spacing: 3px;
-    text-align: center;
     color: rgb(43, 43, 43);
-    text-shadow: 100px 0px 10px 10px rgba(0, 0, 0, 0);
+    text-shadow: 1px 0px 10px 10px rgba(0, 0, 0, 0);
     transition: all 0.3s ease-in-out;
+    align-self: flex-start;
 }
 
 .item:hover {
     text-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
     color: rgb(80, 80, 80);
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
+
 .img:before {
     box-shadow: 0px 0px 0px 0px;
 }
