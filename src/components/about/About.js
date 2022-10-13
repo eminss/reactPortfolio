@@ -13,7 +13,7 @@ export default function About() {
     <Container fluid>
         <Row>
             <Col >
-            <Image src={require(".//assets/images/menanna.jpg")}
+            <Image src={require("./assets/images/menanna.jpg")}
             className="img-fluid p-5 rounded" alt="Responsive image"></Image>
             </Col>
             <Col id='textCol' xs lg={9} className="bg-light">
